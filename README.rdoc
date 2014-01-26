@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an app built for churches to page parents of children in sunday school through a text message.
 
-Things you may want to cover:
+Using Twilio for texting set up an account at twilio.com and insert your SID and Key in the twilio.yml file in the config folder.
 
-* Ruby version
+Database is sqlite3 but will be upgrading to Postgres before publishing app in production.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Utilizing formtastic for form input 
