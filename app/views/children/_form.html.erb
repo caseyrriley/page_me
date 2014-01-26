@@ -1,0 +1,14 @@
+<%= semantic_form_for(@child) do |form| %>
+<%= form.inputs do%>
+
+<%= form.input :name %>
+<%= form.input :phone_number %>
+<%= form.input :email_address %>
+<%= form.input :description%>
+<%= form.collection_select :group_id, Group.all, :id, :group_name, :null => :false, :prompt => "Please select childs group" %> 
+<% end %> 
+<br> 
+<br>
+<%= form.buttons %>
+ 
+ <% end %>
